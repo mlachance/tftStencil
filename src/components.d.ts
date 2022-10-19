@@ -18,6 +18,9 @@ export namespace Components {
         "name": string;
     }
     interface TftAttribute {
+        "id": string;
+        "label": string;
+        "value": number;
     }
     interface TftEquip {
     }
@@ -106,6 +109,9 @@ declare namespace LocalJSX {
         "name"?: string;
     }
     interface TftAttribute {
+        "id"?: string;
+        "label"?: string;
+        "value"?: number;
     }
     interface TftEquip {
     }

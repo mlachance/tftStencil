@@ -17,6 +17,7 @@
     "ionicons": "^6.0.2",
     "jest": "^27.5.1",
     "jest-cli": "^27.5.1",
+    "prettier": "^2.7.1",
     "puppeteer": "^16.2.0"
   },
   "license": "MIT"
