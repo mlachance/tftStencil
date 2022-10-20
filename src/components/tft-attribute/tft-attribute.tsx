@@ -2,7 +2,7 @@ import { Component, Host, h, Prop } from '@stencil/core';
 
 @Component({
   tag: 'tft-attribute',
-  styleUrl: 'tft-attribute.css',
+  styleUrl: 'tft-attribute.scss',
   shadow: true,
 })
 export class TftAttribute {

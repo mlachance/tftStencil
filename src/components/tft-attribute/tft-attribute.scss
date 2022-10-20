@@ -1,0 +1,19 @@
+@mixin common {
+  border: 1px solid #333;
+  font-size: 24px;
+}
+
+:host {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+label {
+  @include common;
+  background-color: #333;
+  color: #fff;
+}
+input {
+  @include common;
+  font-family: cursive;
+}
