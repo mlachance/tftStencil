@@ -35,6 +35,11 @@ export class PageProfile {
               <p>
                 This name is passed in through a route param!
               </p>
+              <tft-attribute id="st" label="ST" value={13}></tft-attribute>
+              <tft-attribute id="dx" label="DX" value={10}></tft-attribute>
+              <tft-attribute id="iq" label="IQ" value={8}></tft-attribute>
+              <tft-attribute id="ma" label="MA" value={10}></tft-attribute>
+              <tft-hits hitPoints={12}></tft-hits>
             </ion-card-content>
           </ion-card>
         </ion-content>

@@ -25,6 +25,7 @@ export namespace Components {
     interface TftEquip {
     }
     interface TftHits {
+        "hitPoints": number;
     }
     interface TftImage {
     }
@@ -116,6 +117,7 @@ declare namespace LocalJSX {
     interface TftEquip {
     }
     interface TftHits {
+        "hitPoints"?: number;
     }
     interface TftImage {
     }
